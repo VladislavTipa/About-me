@@ -7,7 +7,7 @@
 /* about_me стили */
 .about_me {
   background-color: #436AAC;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .about_me .container {
@@ -18,15 +18,58 @@
 }
 
 /* education стили */
-
+.education {
+  width: 90%;
+  margin: auto;
+}
 
 /* projects стили */
+.projects {
+  width: 90%;
+  margin: auto;
+}
+
+.back_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(1px);
+}
+
+.block_project {
+  position: relative;
+  width: 48%;
+  height: 500px;
+  overflow: hidden;
+  border: none;
+  border-radius: 15px;
+  float: left;
+  margin: 10px;
+  /* background-color: #436AAC; */
+}
+.json_viewer_description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+
 
 
 /* hobbies стили */
-
+.hobbies {
+  width: 90%;
+  margin: auto;
+}
 
 /* contact стили */
-
+.contact {
+  width: 90%;
+  margin: auto;
+}
 
 /* footer стили */
