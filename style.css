@@ -1,0 +1,32 @@
+/* Общие стили */
+
+
+/* header стили */
+
+
+/* about_me стили */
+.about_me {
+  background-color: #436AAC;
+  width: 80%;
+  margin: auto;
+}
+.about_me .container {
+  display: flex
+}
+.me_foto {
+  width: 20%;
+}
+
+/* education стили */
+
+
+/* projects стили */
+
+
+/* hobbies стили */
+
+
+/* contact стили */
+
+
+/* footer стили */
